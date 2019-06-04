@@ -29,8 +29,7 @@ class Student
     
     sql = <<-SQL
       SELECT *
-      FROM songs
-      
+      FROM students
       WHERE name = ?
     SQL
     
